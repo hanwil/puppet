@@ -42,7 +42,7 @@ node default {
   #   class { 'my_class': }
 }
 
-node 'agent.vagrant.com' {
+node 'cs01s002.linux.ipa.local' {
   include java
   include jboss_as
   include wget
